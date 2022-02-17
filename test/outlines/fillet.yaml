@@ -1,0 +1,21 @@
+points:
+  key:
+    padding: cy
+    bind: 0.1
+  zones:
+    matrix:
+      columns:
+        one:
+        two:
+      rows:
+        bottom:
+        top:
+outlines:
+  base:
+    - what: rectangle
+      where: true
+      size: cy
+  fillet:
+    - what: outline
+      name: base
+      fillet: 2
